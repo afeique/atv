@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic|Open+Sans:400,400italic,700,700italic);
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
