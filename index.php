@@ -67,15 +67,15 @@ $f3->route('GET /',
 				array('dom','xmlrpc')
 		);
 		$f3->set('classes',$classes);
-		$f3->set('content','welcome.htm');
-		echo View::instance()->render('layout.htm');
+		$f3->set('content','frontpage.php');
+		echo View::instance()->render('layout.php');
 	}
 );
 
 $f3->route('GET /userref',
 	function($f3) {
-		$f3->set('content','userref.htm');
-		echo View::instance()->render('layout.htm');
+		$f3->set('content','userref.php');
+		echo View::instance()->render('layout.php');
 	}
 );
 
