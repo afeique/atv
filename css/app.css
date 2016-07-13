@@ -1,9 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic|Open+Sans:400,400italic,700,700italic);
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i|Roboto+Slab:400,700';
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+div.top-bar div.top-bar-left ul.menu li  {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+div.top-bar div.top-bar-left ul.menu li.menu-text {
+	letter-spacing: .1em;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
