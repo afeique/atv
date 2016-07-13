@@ -12,6 +12,27 @@
     	<link rel="stylesheet" href="css/app.css" type="text/css">
 	</head>
 	<body>
+		<div class="top-bar" id="realEstateMenu">
+	      <div class="top-bar-left">
+	        <ul class="menu" data-responsive-menu="accordion">
+	          <li class="menu-text">acrossti.me</li>
+	          <li><a href="#">feeds</a></li>
+	          <li><a href="#">writing</a></li>
+	          <li><a href="#">poetry</a></li>
+	          <li><a href="#">music</a></li>
+	        </ul>
+	      </div>
+	      <div class="top-bar-right">
+	        <ul class="menu">
+	          <li><a href="#">My Account</a></li>
+	          <li><a class="button">Login</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	    <!-- /Navigation -->
+
+	    <br>
+		
 		<?php echo $this->render(Base::instance()->get('content')); ?>
 
 		<script src="js/vendor/jquery.js"></script>
