@@ -15,18 +15,14 @@
 
       <div class="medium-5 large-3 columns">
         <div class="callout secondary">
-          <form>
+          <form method="post" action="/register">
             <div class="row">
-              <div class="small-12 columns">
-                <label>Find Your Dream Planet
-                  <input type="text" placeholder="Search destinations">
+              <div class="small-12 columns text-center">
+                  <input type="text" name="email" placeholder="email">
+                  <input type="text" name="username" placeholder="username">
+                  <input type="password" name="password" placeholder="password">
+                  <button type="submit" class="button">register</button>
                 </label>
-              </div>
-              <div class="small-12 columns">
-                <label>Number of Moons
-                  <input type="number" placeholder="Moons required">
-                </label>
-                <button type="submit" class="button">Search Now!</button>
               </div>
             </div>
           </form>
@@ -98,66 +94,3 @@
     <div class="row column">
       <a class="button hollow expanded">Load More</a>
     </div>
-
-    <footer>
-      <div class="row expanded callout secondary">
-
-        <div class="small-6 large-3 columns">
-          <p class="lead">Offices</p>
-          <ul class="menu vertical">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-          </ul>
-        </div>
-
-        <div class="small-6 large-3 columns">
-          <p class="lead">Solar Systems</p>
-          <ul class="menu vertical">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-          </ul>
-        </div>
-
-        <div class="small-6 large-3 columns">
-          <p class="lead">Contact</p>
-          <ul class="menu vertical">
-            <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
-            <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
-            <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
-            <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
-          </ul>
-        </div>
-
-        <div class="small-6 large-3 columns">
-          <p class="lead">Offices</p>
-          <ul class="menu vertical">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-          </ul>
-        </div>
-
-      </div>
-      <div class="row">
-
-        <div class="medium-6 columns">
-          <ul class="menu">
-            <li><a href="#">Legal</a></li>
-            <li><a href="#">Partner</a></li>
-            <li><a href="#">Explore</a></li>
-          </ul>
-        </div>
-
-        <div class="medium-6 columns">
-          <ul class="menu float-right">
-            <li class="menu-text">Copyright</li>
-          </ul>
-        </div>
-      </div>
-
-    </footer>
