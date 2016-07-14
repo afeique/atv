@@ -15,31 +15,6 @@
 
 What do __*you*__ love to do?
 
-## codename
-    
-**Serrellious:**
-
-    I am writing it from scratch
-    without relying on a framework
-    it will take longer (or maybe not)
-    it will be really fun
-    I'm calling this attempt "ATV"
-    
-**Xishem:**
-
-    lol
-    
-**Serrellious:**
-
-    I believe it's my fifth attempt
-    
-**Xishem:**
-
-    oh
-    I thought it was like
-    "ATV" because it's "rugged and off-road"
-    "no libraries"
-
 
 ## linux development environment
 
